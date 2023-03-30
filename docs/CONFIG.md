@@ -15,7 +15,7 @@ You can configure MailHog using command line options or environment variables:
 | MH_MONGO_URI        | -mongo-uri      | 127.0.0.1:27017 | MongoDB host and port
 | MH_SMTP_BIND_ADDR   | -smtp-bind-addr | 0.0.0.0:1025    | Interface and port for SMTP server to bind to
 | MH_STORAGE          | -storage        | memory          | Set message storage: memory / mongodb / maildir
-| MH_OUTGOING_SMTP    | -outgoing-smtp  |                 | JSON file defining outgoing SMTP servers
+| MH_OUTGOING_SMTP    | -outgoing-smtp  |localhost:1025| JSON file defining outgoing SMTP servers
 | MH_UI_WEB_PATH      | -ui-web-path    |                 | WebPath under which the UI is served (without leading or trailing slashes), e.g. 'mailhog'
 | MH_AUTH_FILE        | -auth-file      |                 | A username:bcryptpw mapping file
 
